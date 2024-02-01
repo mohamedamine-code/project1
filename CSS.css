@@ -1,0 +1,148 @@
+*{
+    padding:0px;
+    margin:0px;
+    color:white;
+    font-family:sans-serif;
+}
+body{
+    background-color: black;
+    display:flex;
+}
+li.profile{
+    display:flex;
+    gap:30px;
+}
+.img-box{ /* the place of the image*/
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    overflow:hidden;
+    border:white 2px solid;
+    flex-shrink: 0;
+}
+.img-box img{ /* the image */
+    width:100%;
+}
+.menu:hover{
+    width:260px;
+    transition: 1s;
+}
+
+.menu{
+    background-color:#123;
+    width:40px;
+    height:100vh;
+    padding:20px;
+    overflow:hidden;
+}
+ul{
+    list-style:none;
+    height:95%;
+    position:relative;
+}
+li h3{
+    text-transform:capitalize;
+}
+
+ul li a{
+    text-decoration: none;
+    display:block;
+    padding:10px;
+    margin:10px 0px;
+    border-radius:20px;
+    display:flex;
+    gap: 40px;
+    align-items:center;
+    transition:0.1s;
+}
+
+ul li a:hover,.active,.data-info .box:hover,td:hover{
+    background-color:rgba(255, 255, 255, 0.525);
+}
+ul .logout{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+ul .logout a{
+    background-color:red;
+}
+ul li a i{
+    font-size:20px;
+}
+ul li a p{
+    font-size:20px;
+    text-transform:capitalize;
+
+}
+.content{
+    width:100%;
+}
+.content .title-info {
+    background-color:dodgerblue;
+    padding:5px;
+    border-radius:5px;
+    position:relative;
+    margin:10px 5px 5px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.data-info{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.data-info .box{
+    background-color:#123;
+    flex-basis:180px;
+    margin:5px;
+    padding:20px;
+    border-radius:20px;
+    display:flex;
+    flex-grow: 1;
+    justify-content:space-around;
+}
+.box i{
+    font-size:28px;
+}
+.data-info .box .data span{
+    font-size:30px;
+}
+table{
+    width:100%;
+    text-align:center;
+    border-spacing:8px;
+}
+td, th{
+    background-color:#123;
+    height:40px;
+    border-radius:8px;
+}
+th{
+    background-color:dodgerblue;
+}
+.price{
+    background-color:green;
+    padding:7px;
+    border-radius:8px;
+}
+.count{
+    color:black;
+    background-color:yellow;
+    padding:7px;
+    border-radius:8px;
+}
+
+
+
+
+
+
+
+
+
